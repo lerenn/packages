@@ -3,7 +3,24 @@ entries:
   cryptellation:
   - apiVersion: v1
     appVersion: 0.8.2
-    created: "2023-06-11T23:56:33.133156301+02:00"
+    created: "2023-06-12T01:21:35.125186459+02:00"
+    dependencies:
+    - name: cockroachdb
+      repository: https://charts.cockroachdb.com/
+      version: 10.0.8
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.19.13
+    description: Cryptellation Platform
+    digest: 8d0fc3c37e1b7a122eaf1c7777a4b2d7e04ef19dae5fedd32579a3af16cb3af6
+    name: cryptellation
+    type: application
+    urls:
+    - cryptellation-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    appVersion: 0.8.2
+    created: "2023-06-12T01:21:35.122209128+02:00"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -20,7 +37,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2023-06-11T23:56:33.129004585+02:00"
+    created: "2023-06-12T01:21:35.119093184+02:00"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -35,4 +52,4 @@ entries:
     urls:
     - cryptellation-1.0.0.tgz
     version: 1.0.0
-generated: "2023-06-11T23:56:33.124007332+02:00"
+generated: "2023-06-12T01:21:35.111131173+02:00"
