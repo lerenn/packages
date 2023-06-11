@@ -1,2 +1,3 @@
-# packages
-This repository host some packages as Helm charts
+# Packages
+
+This repository host some packages as Helm charts.
