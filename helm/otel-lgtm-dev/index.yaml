@@ -3,7 +3,7 @@ entries:
   otel-lgtm-dev:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2023-09-28T18:17:06.925120107+04:00"
+    created: "2023-09-28T18:25:41.37981343+04:00"
     dependencies:
     - name: opentelemetry-collector
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
@@ -30,6 +30,6 @@ entries:
     name: otel-lgtm-dev
     type: application
     urls:
-    - https://lerenn.github.io/packages/helm/otel-lgtm-dev/otel-lgtm-dev/otel-lgtm-dev-1.0.0.tgz
+    - https://lerenn.github.io/packages/helm/otel-lgtm-dev/otel-lgtm-dev-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-28T18:17:06.883619765+04:00"
+generated: "2023-09-28T18:25:41.346056356+04:00"
