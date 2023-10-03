@@ -3,7 +3,38 @@ entries:
   otel-lgtm-dev:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2023-09-28T18:25:41.37981343+04:00"
+    created: "2023-10-03T11:21:08.293664808+02:00"
+    dependencies:
+    - name: opentelemetry-collector
+      repository: https://open-telemetry.github.io/opentelemetry-helm-charts
+      version: 0.68.1
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.58.9
+    - alias: loki
+      name: loki-distributed
+      repository: https://grafana.github.io/helm-charts
+      version: 0.74.6
+    - alias: mimir
+      name: mimir-distributed
+      repository: https://grafana.github.io/helm-charts
+      version: 5.1.0
+    - alias: tempo
+      name: tempo-distributed
+      repository: https://grafana.github.io/helm-charts
+      version: 1.6.6
+    description: OpenTelemetry + LGTM Stack for development
+    digest: 50915543d3f45991e82d7c12e24aea90c1449c1528be3880e32ca9a9fa5f9c3f
+    maintainers:
+    - name: Louis FRADIN
+    name: otel-lgtm-dev
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/otel-lgtm-dev/otel-lgtm-dev-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2023-10-03T11:21:08.262138784+02:00"
     dependencies:
     - name: opentelemetry-collector
       repository: https://open-telemetry.github.io/opentelemetry-helm-charts
@@ -32,4 +63,4 @@ entries:
     urls:
     - https://lerenn.github.io/packages/helm/otel-lgtm-dev/otel-lgtm-dev-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-28T18:25:41.346056356+04:00"
+generated: "2023-10-03T11:21:08.227317423+02:00"

@@ -19,5 +19,5 @@ helm repo index --url https://lerenn.github.io/packages/helm/<repo> ./helm/<repo
 ### Update index.yaml for a helm repository
 
 ```shell
-helm repo index --url https://lerenn.github.io/packages/helm/<repo> --merge index.yaml ./helm/<repo>
+helm repo index --url https://lerenn.github.io/packages/helm/<repo> --merge ./helm/<repo>/index.yaml ./helm/<repo>
 ```
