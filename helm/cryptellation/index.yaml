@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   cryptellation:
   - apiVersion: v1
+    appVersion: 1.10.0
+    created: "2024-06-13T18:16:06.753699+02:00"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.12.0
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.19.13
+    description: Cryptellation Platform
+    digest: 8004b0b666b283c99ff7434d0acf88c73026368218be5499ec1ff292a0e137de
+    name: cryptellation
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
     appVersion: 0.8.2
-    created: "2023-06-12T01:21:35.125186459+02:00"
+    created: "2024-06-13T18:16:06.740018+02:00"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -16,11 +33,11 @@ entries:
     name: cryptellation
     type: application
     urls:
-    - cryptellation-1.0.2.tgz
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.0.2.tgz
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.8.2
-    created: "2023-06-12T01:21:35.122209128+02:00"
+    created: "2024-06-13T18:16:06.732834+02:00"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -33,11 +50,11 @@ entries:
     name: cryptellation
     type: application
     urls:
-    - cryptellation-1.0.1.tgz
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2023-06-12T01:21:35.119093184+02:00"
+    created: "2024-06-13T18:16:06.722555+02:00"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -50,6 +67,6 @@ entries:
     name: cryptellation
     type: application
     urls:
-    - cryptellation-1.0.0.tgz
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.0.0.tgz
     version: 1.0.0
-generated: "2023-06-12T01:21:35.111131173+02:00"
+generated: "2024-06-13T18:16:06.712935+02:00"
