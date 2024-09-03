@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   cryptellation:
   - apiVersion: v1
+    appVersion: 2.1.0
+    created: "2024-09-03T10:38:58.023298886Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.12.0
+    - name: nats
+      repository: https://nats-io.github.io/k8s/helm/charts/
+      version: 0.19.13
+    description: Cryptellation Platform
+    digest: 38f77e004548d8a351933068dab9cc297c6c5bcb57d92596fb6a16fdcd082f15
+    name: cryptellation
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-2.1.0.tgz
+    version: 2.1.0
+  - apiVersion: v1
     appVersion: 2.0.0
-    created: "2024-09-02T16:23:09.479170613Z"
+    created: "2024-09-03T10:38:58.017050063Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -20,7 +37,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2024-09-02T16:23:09.472643776Z"
+    created: "2024-09-03T10:38:58.010441378Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +54,7 @@ entries:
     version: 1.7.0
   - apiVersion: v1
     appVersion: 1.15.1
-    created: "2024-09-02T16:23:09.466523183Z"
+    created: "2024-09-03T10:38:58.004948785Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -54,7 +71,7 @@ entries:
     version: 1.6.1
   - apiVersion: v1
     appVersion: 1.15.0
-    created: "2024-09-02T16:23:09.460298072Z"
+    created: "2024-09-03T10:38:57.998780139Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +88,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.14.1
-    created: "2024-09-02T16:23:09.454872709Z"
+    created: "2024-09-03T10:38:57.992296775Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -88,7 +105,7 @@ entries:
     version: 1.5.1
   - apiVersion: v1
     appVersion: 1.14.0
-    created: "2024-09-02T16:23:09.448479636Z"
+    created: "2024-09-03T10:38:57.986799975Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -105,7 +122,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.13.3
-    created: "2024-09-02T16:23:09.442237425Z"
+    created: "2024-09-03T10:38:57.980348224Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -122,7 +139,7 @@ entries:
     version: 1.4.6
   - apiVersion: v1
     appVersion: 1.13.3
-    created: "2024-09-02T16:23:09.435696948Z"
+    created: "2024-09-03T10:38:57.973954339Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -139,7 +156,7 @@ entries:
     version: 1.4.5
   - apiVersion: v1
     appVersion: 1.13.2
-    created: "2024-09-02T16:23:09.430051459Z"
+    created: "2024-09-03T10:38:57.965604921Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -156,7 +173,7 @@ entries:
     version: 1.4.4
   - apiVersion: v1
     appVersion: 1.13.1
-    created: "2024-09-02T16:23:09.42398674Z"
+    created: "2024-09-03T10:38:57.957582985Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -173,7 +190,7 @@ entries:
     version: 1.4.3
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2024-09-02T16:23:09.417809349Z"
+    created: "2024-09-03T10:38:57.952177666Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -190,7 +207,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2024-09-02T16:23:09.411824219Z"
+    created: "2024-09-03T10:38:57.945722049Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -207,7 +224,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.13.0
-    created: "2024-09-02T16:23:09.40545245Z"
+    created: "2024-09-03T10:38:57.93963203Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -224,7 +241,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.12.4
-    created: "2024-09-02T16:23:09.399093571Z"
+    created: "2024-09-03T10:38:57.934233714Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -241,7 +258,7 @@ entries:
     version: 1.3.4
   - apiVersion: v1
     appVersion: 1.12.3
-    created: "2024-09-02T16:23:09.392360832Z"
+    created: "2024-09-03T10:38:57.927816078Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -258,7 +275,7 @@ entries:
     version: 1.3.3
   - apiVersion: v1
     appVersion: 1.12.0
-    created: "2024-09-02T16:23:09.386176356Z"
+    created: "2024-09-03T10:38:57.921301676Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -275,7 +292,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.11.0
-    created: "2024-09-02T16:23:09.379747344Z"
+    created: "2024-09-03T10:38:57.915024386Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -292,7 +309,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.10.0
-    created: "2024-09-02T16:23:09.374349934Z"
+    created: "2024-09-03T10:38:57.909410705Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -309,7 +326,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: 0.8.2
-    created: "2024-09-02T16:23:09.368110723Z"
+    created: "2024-09-03T10:38:57.903347494Z"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -326,7 +343,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.8.2
-    created: "2024-09-02T16:23:09.365079461Z"
+    created: "2024-09-03T10:38:57.899417866Z"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -343,7 +360,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: 0.8.1
-    created: "2024-09-02T16:23:09.361291408Z"
+    created: "2024-09-03T10:38:57.895064202Z"
     dependencies:
     - name: cockroachdb
       repository: https://charts.cockroachdb.com/
@@ -358,4 +375,4 @@ entries:
     urls:
     - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-02T16:23:09.358021639Z"
+generated: "2024-09-03T10:38:57.891508556Z"
