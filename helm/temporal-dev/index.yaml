@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  temporal-dev:
+  - apiVersion: v2
+    appVersion: "1.25"
+    created: "2024-11-18T16:11:14.900684+01:00"
+    description: A Helm chart to deploy a minimal temporal dev cluster
+    digest: d9bf90d0bf4fc963438b83804f58cd4a2852ad5c54716ebb5c7cbbdd92829a7b
+    name: temporal-dev
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/temporal-dev/temporal-dev-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-18T16:11:14.893975+01:00"
