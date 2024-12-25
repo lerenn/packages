@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   cryptellation:
   - apiVersion: v1
+    appVersion: 1.6.0
+    created: "2024-12-25T10:28:11.687547272Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.12.0
+    - name: temporal-dev
+      repository: https://lerenn.github.io/packages/helm/temporal-dev
+      version: 0.1.0
+    description: Cryptellation Platform
+    digest: c91aa432ac36b975e1118a7eecef892d2c90559f6cd06ebd28a76d67878aae02
+    name: cryptellation
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v1
     appVersion: 1.5.0
-    created: "2024-12-19T17:15:08.163090913Z"
+    created: "2024-12-25T10:28:11.683341461Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -20,7 +37,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2024-12-19T17:15:08.157826901Z"
+    created: "2024-12-25T10:28:11.678130595Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +54,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2024-12-19T17:15:08.153676676Z"
+    created: "2024-12-25T10:28:11.673883757Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -54,7 +71,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2024-12-19T17:15:08.148637723Z"
+    created: "2024-12-25T10:28:11.66888367Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +88,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2024-12-19T17:15:08.143605262Z"
+    created: "2024-12-25T10:28:11.663966282Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -86,4 +103,4 @@ entries:
     urls:
     - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.1.0.tgz
     version: 1.1.0
-generated: "2024-12-19T17:15:08.138799991Z"
+generated: "2024-12-25T10:28:11.659251283Z"
