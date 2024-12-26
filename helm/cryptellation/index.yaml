@@ -2,8 +2,25 @@ apiVersion: v1
 entries:
   cryptellation:
   - apiVersion: v1
+    appVersion: 1.7.0
+    created: "2024-12-26T17:18:00.122948037Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.12.0
+    - name: temporal-dev
+      repository: https://lerenn.github.io/packages/helm/temporal-dev
+      version: 0.1.0
+    description: Cryptellation Platform
+    digest: 45efe6d9ee6b2d734b977e570a5905f689ad7d95f945e1e1a5b7e69c6c20e401
+    name: cryptellation
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v1
     appVersion: 1.6.0
-    created: "2024-12-25T10:28:11.687547272Z"
+    created: "2024-12-26T17:18:00.118854082Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -20,7 +37,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2024-12-25T10:28:11.683341461Z"
+    created: "2024-12-26T17:18:00.113796963Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -37,7 +54,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2024-12-25T10:28:11.678130595Z"
+    created: "2024-12-26T17:18:00.109580699Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -54,7 +71,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2024-12-25T10:28:11.673883757Z"
+    created: "2024-12-26T17:18:00.104627762Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +88,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2024-12-25T10:28:11.66888367Z"
+    created: "2024-12-26T17:18:00.100357649Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -88,7 +105,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2024-12-25T10:28:11.663966282Z"
+    created: "2024-12-26T17:18:00.095519788Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -103,4 +120,4 @@ entries:
     urls:
     - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.1.0.tgz
     version: 1.1.0
-generated: "2024-12-25T10:28:11.659251283Z"
+generated: "2024-12-26T17:18:00.090340378Z"
