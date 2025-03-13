@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cryptellation:
   - apiVersion: v1
+    appVersion: 1.9.1
+    created: "2025-03-13T16:47:09.770247239Z"
+    description: Cryptellation Platform
+    digest: a09561a87bae2887de2a24bafb917731e12182d063b40c7216699c64c103cc86
+    name: cryptellation
+    type: application
+    urls:
+    - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.9.1.tgz
+    version: 1.9.1
+  - apiVersion: v1
     appVersion: 1.9.0
-    created: "2025-03-13T13:43:44.295787701Z"
+    created: "2025-03-13T16:47:09.753409472Z"
     description: Cryptellation Platform
     digest: 72fcbec87af0d187211622df802156aecb522f2bc96cab11db5df4d8a3da3ad9
     name: cryptellation
@@ -13,7 +23,7 @@ entries:
     version: 1.9.0
   - apiVersion: v1
     appVersion: 1.8.0
-    created: "2025-03-13T13:43:44.279601121Z"
+    created: "2025-03-13T16:47:09.737439368Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -30,7 +40,7 @@ entries:
     version: 1.8.0
   - apiVersion: v1
     appVersion: 1.7.0
-    created: "2025-03-13T13:43:44.274398575Z"
+    created: "2025-03-13T16:47:09.7325522Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -47,7 +57,7 @@ entries:
     version: 1.7.0
   - apiVersion: v1
     appVersion: 1.6.0
-    created: "2025-03-13T13:43:44.270219772Z"
+    created: "2025-03-13T16:47:09.728278426Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -64,7 +74,7 @@ entries:
     version: 1.6.0
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2025-03-13T13:43:44.264858642Z"
+    created: "2025-03-13T16:47:09.723183861Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -81,7 +91,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2025-03-13T13:43:44.260727317Z"
+    created: "2025-03-13T16:47:09.718954719Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -98,7 +108,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2025-03-13T13:43:44.255809247Z"
+    created: "2025-03-13T16:47:09.713768128Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -115,7 +125,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2025-03-13T13:43:44.251588585Z"
+    created: "2025-03-13T16:47:09.708664038Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -132,7 +142,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2025-03-13T13:43:44.246708714Z"
+    created: "2025-03-13T16:47:09.70428129Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
@@ -147,4 +157,4 @@ entries:
     urls:
     - https://lerenn.github.io/packages/helm/cryptellation/cryptellation-1.1.0.tgz
     version: 1.1.0
-generated: "2025-03-13T13:43:44.242023816Z"
+generated: "2025-03-13T16:47:09.698658144Z"
